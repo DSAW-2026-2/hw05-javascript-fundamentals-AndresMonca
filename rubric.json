@@ -1,0 +1,30 @@
+{
+  "name": "HW05 — JavaScript Fundamentals",
+  "homeworkNumber": 5,
+  "structure": {
+    "maxPoints": 20,
+    "requiredFiles": [
+      { "path": "index.html", "description": "HTML page with JavaScript interactions", "points": 8 }
+    ],
+    "requiredFolders": []
+  },
+  "quality": {
+    "maxPoints": 20,
+    "checks": ["eslint", "htmlhint"]
+  },
+  "deployment": {
+    "maxPoints": 20,
+    "type": "github-pages"
+  },
+  "acceptance": {
+    "maxPoints": 40,
+    "sourcePaths": ["index.html"],
+    "criteria": [
+      "At least 2 distinct interactive behaviors are implemented using vanilla JavaScript — no libraries or frameworks",
+      "One of the interactions responds to a custom keyboard shortcut using keydown or keyup events (not just the default Enter/click behavior)",
+      "Event listeners are attached using addEventListener — no inline event handlers (onclick='...') in the HTML",
+      "DOM manipulation is performed correctly: elements are selected with querySelector or similar, and their content or style is changed dynamically",
+      "Client-side form validation is present: the form does not submit if required fields are empty or invalid, and the user sees a visible error message"
+    ]
+  }
+}
