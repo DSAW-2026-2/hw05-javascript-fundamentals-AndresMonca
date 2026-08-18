@@ -1,5 +1,15 @@
 # HW05 — JavaScript Fundamentals
 
+## Student Information
+
+**Name:**  
+Edwin Andres Montaño Castañeda
+
+**GitHub Pages:**  
+https://dsaw-2026-2.github.io/hw05-javascript-fundamentals-AndresMonca/
+
+---
+
 **Week 5 · DSAW · Universidad de La Sabana**
 
 ## Objective
